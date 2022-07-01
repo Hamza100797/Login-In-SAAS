@@ -1,0 +1,20 @@
+{
+  "name": "saas-learnnig",
+  "version": "1.0.0",
+  "description": "SaasLearning",
+  "main": "index.js",
+  "scripts": {
+    "saas_compiler": "sass scss/style.scss css/style.css -w"
+  },
+  "keywords": [
+    "saas",
+    "preProcessor",
+    "css",
+    "scss"
+  ],
+  "author": "hbk1007",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
