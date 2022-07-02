@@ -37,9 +37,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         @include d-center;
         flex-direction: column;
         text-align: center;
-        p{
-            color: $text-color; 
-        }
+        .header-title {  
+            font-size: 1rem;  //ists just for testing purpose
+          
+            @include for-size(phone-only) {    
+               font-size: 1.5rem; 
+            }
+         }
     }
 
 }
